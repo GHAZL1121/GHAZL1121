@@ -1,0 +1,76 @@
+"اكتشف أفضل وجهات السفر بناءً على تفضيلاتك!"
+"نبذة عنا" (About Us)
+"موقعنا مخصص لعشاق السفر، ليوفر توصيات مخصصة لضمان رحلة لا تُنسى."
+"اتصل بنا" (Contact Us)
+col me@gmail.com 
+travel-recommendations/
+├── index.html
+├── about.html
+├── contact.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+└── README.md
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendations</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Discover Your Next Adventure</h1>
+    <p>Find the perfect destination tailored to your preferences!</p>
+  </section>
+  <section id="recommendations">
+    <h2>Top Destinations</h2>
+    <article>
+      <h3>Beach Paradise</h3>
+      <img src="assets/images/beach1.jpg" alt="Beach">
+      <p>Relax on the golden sands and enjoy the ocean breeze.</p>
+    </article>
+    <article>
+      <h3>Temple Wonders</h3>
+      <img src="assets/images/temple1.jpg" alt="Temple">
+      <p>Explore the history and architecture of ancient temples.</p>
+    </article>
+  </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <section>
+    <h1>About Us</h1>
+    <p>We help travel enthusiasts discover destinations tailored to their preferences for unforgettable experiences.</p>
+  </section>
+</body>
+</html>
